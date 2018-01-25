@@ -1,7 +1,7 @@
-// features/support/world.js
-const { setWorldConstructor } = require('cucumber')
+import { setWorldConstructor } from 'cucumber';
 
 class CustomWorld {
+  variable : any;
   constructor() {
     this.variable = 0
   }
@@ -15,4 +15,4 @@ class CustomWorld {
   }
 }
 
-setWorldConstructor(CustomWorld)
+setWorldConstructor(CustomWorld);

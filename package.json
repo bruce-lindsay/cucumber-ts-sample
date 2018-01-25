@@ -9,8 +9,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/chai": "^4.1.2",
+    "@types/cucumber": "^3.2.1",
     "chai": "^4.1.2",
     "cucumber": "^4.0.0",
-    "ts-node": "^4.1.0"
+    "ts-node": "^4.1.0",
+    "typescript": "^2.6.2"
   }
 }
